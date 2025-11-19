@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark scroll-pt-24">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Hussien - Portfolio</title>
+    <meta name="description" content="Portfolio of Mohamed Arsinek - Programmer, Designer, AI Enthusiast" />
+    <meta name="theme-color" content="#8B5CF6" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://ik.imagekit.io/rn0uichl8o/loly-creation-1763562408282.png" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/kl0l69" />
+    <meta property="og:title" content="Mohamed Arsinek - Creative Developer & Designer" />
+    <meta property="og:description" content="A cinematic, futuristic, and Egyptian-inspired personal portfolio showcasing skills in Programming, Design, and AI." />
+    <meta property="og:image" content="https://ik.imagekit.io/rn0uichl8o/loly-creation-1763562408282.png" />
+    <meta property="og:site_name" content="Arsinek Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kl0l69" />
+    <meta name="twitter:creator" content="@kl0l69" />
+    <meta name="twitter:title" content="Mohamed Arsinek - Creative Developer & Designer" />
+    <meta name="twitter:description" content="A cinematic, futuristic, and Egyptian-inspired personal portfolio showcasing skills in Programming, Design, and AI." />
+    <meta name="twitter:image" content="https://ik.imagekit.io/rn0uichl8o/loly-creation-1763562408282.png" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Orbitron for futuristic headers, Cairo for body/Egyptian feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+      :root {
+        /* Default Theme (Pharaoh - Updated to Violet) */
+        --color-primary: #8B5CF6;       /* Violet */
+        --color-secondary: #45A29E;     /* Cyan */
+        --color-bg-dark: #0B0C10;       /* Dark Black/Blue */
+        --color-glow: #A78BFA;          /* Light Violet Glow */
+      }
+      
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f3f4f6;
+      }
+      .dark ::-webkit-scrollbar-track {
+        background: var(--color-bg-dark); 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--color-secondary); 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--color-glow); 
+      }
+      
+      .neon-text {
+        text-shadow: 0 0 5px var(--color-secondary), 0 0 10px var(--color-secondary);
+      }
+      .gold-glow {
+        text-shadow: 0 0 5px var(--color-primary), 0 0 10px var(--color-primary);
+      }
+    </style>
+
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Cairo', 'sans-serif'],
+              display: ['Orbitron', 'sans-serif'],
+            },
+            colors: {
+              'pharaoh-gold': 'var(--color-primary)',
+              'pharaoh-dark': 'var(--color-bg-dark)',
+              'tech-cyan': 'var(--color-secondary)',
+              'tech-glow': 'var(--color-glow)',
+              'sand-accent': '#C5C6C7',
+            },
+            backgroundImage: {
+              'hero-pattern': "url('https://www.transparenttextures.com/patterns/cubes.png')",
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
