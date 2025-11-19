@@ -39,7 +39,7 @@ I create interactive web experiences with **React** and animations to showcase m
 ## How to Run Locally
 1. Clone the repository:
 ```bash
-git clone https://github.com/kl0l89/portfolio.git
+git clone https://github.com/kl0l69/portfolio.git
 ````
 
 2. Navigate into the project folder:
